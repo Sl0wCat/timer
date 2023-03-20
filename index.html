@@ -1,0 +1,17 @@
+<html lang="ru">
+    <head>
+        <title>Timer</title>
+
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Таймер</h1>
+            <form name="timer">
+                <input type="text" name="time" id="time" placeholder="00:00:00" [1-9]{6} /><input type="button" name="submit" id="button" value="Запустить таймер" onclick="callTimer()" />
+                <div id="timer"></div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
